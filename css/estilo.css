@@ -1,0 +1,110 @@
+#home {
+	background: #ffc107;
+	color: white;
+	/*border: 1px solid red;*/
+}
+
+/*.container{
+	border: 1px solid red;
+
+}*/
+
+.caixa{
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+
+}
+a:hover{
+	text-decoration: none;
+}
+
+footer p a{
+	margin: 5px 15px;
+
+
+	
+}
+
+/*.capa-mulher img{
+	border: 1px solid red;
+	display: flex;
+	justify-content:flex-end; 
+}*/
+
+@media (min-width: 768px) {
+  .botao{
+    margin-left: 1.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .centralizar{
+	display: flex;
+	justify-content: center;
+	}
+}
+
+@media (min-width: 768px) {
+  .redes{
+	display: flex;
+	justify-content: flex-end;
+	}
+}
+
+@media(max-width: 400px){
+	/*.input-group{
+		width: 260px;
+	}*/
+
+	.display-4{
+		font-size: 2.0rem;
+	}
+
+}
+
+@media(max-width: 290px){
+	.form-control{
+		display: none;
+	}
+
+	.botao-cadastro {
+		display: flex;
+		justify-content:  center;
+		
+	}
+
+	.input-group-append{
+		display: none;
+		/*display: show;*/
+	}
+
+/*
+	.botao-cadastro button{
+		border-radius: 500px;
+	}
+	*/
+
+}
+
+/*@media(max-width: 291px){
+	.input-group{
+		width: 190px;
+	}
+
+}*/
+
+/*@media(max-width: 400px){
+	.block{
+		display: flex;
+		flex-direction: column;
+	}
+}*/
+
+
+/*@media (min-width: 769px) {
+  .redes{
+	display: flex;
+	justify-content: flex-end;
+	}
+}*/
